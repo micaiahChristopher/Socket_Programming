@@ -1,0 +1,7 @@
+Client(1) - 4/10 20 mins of going through the guide closely. Had to make some changes with sendall() since in Python 3 it expects bytes as opposed to a string which was acceptable in Python 2. Found encode() on stack overflow and decode() to go through the example in the guide.
+
+Client(2) - 4/11 added encode() and decode().
+
+Server(1) - made simple server program from guide. Initial build would just show when it had connected to a client. Was able to use telnet to connect. Followed the guide further and added sendall()
+
+

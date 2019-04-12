@@ -20,7 +20,7 @@ while 1:
     reply = "Okay" + data.decode()
     if not data:
         break
-    conn.sendall(message.encode(), data)
+    conn.sendall(message.encode())
 
 conn.close()
 s.close()

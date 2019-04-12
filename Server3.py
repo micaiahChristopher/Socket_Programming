@@ -17,7 +17,7 @@ while 1:
     print("Connected with", addr[0], "+ ", str(addr[1]))
 
     data = conn.recv(2048)
-    reply = "Okay" + data
+    reply = "Okay" + data.decode()
     if not data:
         break
     conn.sendall(message.encode(), data)
